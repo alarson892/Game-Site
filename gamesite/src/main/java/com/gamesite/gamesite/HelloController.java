@@ -17,6 +17,7 @@ public class HelloController {
 
 	@GetMapping("/testHTML")
 	public String testHTML() {
+		System.out.println("test");
 		return "<h1>Hello world!</h1><br>TEST";
 	}
 }
